@@ -1,0 +1,7 @@
+#logo{
+    height: 80px;
+}
+
+input::placeholder {
+    color: lightgray !important;
+}

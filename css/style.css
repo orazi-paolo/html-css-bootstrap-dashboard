@@ -1,21 +1,14 @@
 #logo{
     height: 80px;
 }
-
 input::placeholder {
     color: lightgray !important;
 }
-
 .row > .col{
     padding: 0;
 }
-
-.border-icons{
-    border: 1px solid black;
-    height: 35px;
-    width: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
+.btn-outline-light{
+    --bs-btn-color: black !important;
+    --bs-btn-border-color: black !important;
+    --bs-btn-hover-bg: grey !important;
 }

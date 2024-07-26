@@ -5,3 +5,21 @@
 input::placeholder {
     color: lightgray !important;
 }
+
+.row > .col{
+    padding: 0;
+}
+
+.border-icons{
+    border: 1px solid black;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    --bs-btn-color: #ddecff;
+}

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard bootstrap</title>
 
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <!-- bootstrap -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -43,7 +46,164 @@
             </div>
           </nav>
     </header>
+    <main>
 
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 d-flex justify-content-between py-4">
+                    <h2>Catalogo Libri</h2>
+                    <button type="button" class="btn btn-primary btn-lg">Aggiungi Libro</button>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-6"><h6><strong>Titolo</strong></h6></div>
+                                <div class="col-3"><h6><strong>Stato</strong></h6></div>
+                                <div class="col-3"><h6><strong>Azioni</strong></h6></div>
+                            </div>
+                        </li>
+                          <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-6"><div>I pilastri della terra</div></div>
+                                <div class="col-3"><button type="button" class="btn btn-success btn-sm">Disponibile</button></div>
+                                <div class="col-3 d-flex gap-1">
+                                    <div class="border-icons"><i class="bi bi-pencil-fill"></i> 
+                                    </div>
+                                    <div class="border-icons"><i class="bi bi-trash-fill"></i></div>
+                                </div>
+                            </div>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-6"><div>I promessi sposi</div></div>
+                                <div class="col-3"><button type="button" class="btn btn-success btn-sm">Disponibile</button></div>
+                                <div class="col-3 d-flex gap-1">
+                                    <div class="border-icons"><i class="bi bi-pencil-fill"></i> 
+                                    </div>
+                                    <div class="border-icons"><i class="bi bi-trash-fill"></i></div>
+                                </div>
+                            </div>
+                          </li>
+                          <li class="list-group-item">
+                                <div class="row">
+                                    <div class="col-6"><div>Il signore degli anelli</div></div>
+                                    <div class="col-3"><button type="button" class="btn btn-warning btn-sm">In prestito</button></div>
+                                    <div class="col-3 d-flex gap-1">
+                                        <div class="border-icons"><i class="bi bi-pencil-fill"></i> 
+                                        </div>
+                                        <div class="border-icons"><i class="bi bi-trash-fill"></i></div>
+                                    </div>
+                                </div>
+                            </li>
+                          <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-6"><div>Harry Potter e la pietra filosofale</div></div>
+                                <div class="col-3"><button type="button" class="btn btn-success btn-sm">Disponibile</button></div>
+                                <div class="col-3 d-flex gap-1">
+                                    <div class="border-icons"><i class="bi bi-pencil-fill"></i> 
+                                    </div>
+                                    <div class="border-icons"><i class="bi bi-trash-fill"></i></div>
+                                </div>
+                            </div>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-6"><div>Il codice Da Vinci</div></div>
+                                <div class="col-3"><button type="button" class="btn btn-danger btn-sm">Non disponibile</button></div>
+                                <div class="col-3 d-flex gap-1">
+                                    <div class="border-icons"><i class="bi bi-pencil-fill"></i> 
+                                    </div>
+                                    <div class="border-icons"><i class="bi bi-trash-fill"></i></div>
+                                </div>
+                            </div>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-6"><div>Shining</div></div>
+                                <div class="col-3"><button type="button" class="btn btn-success btn-sm">Disponibile</button></div>
+                                <div class="col-3 d-flex gap-1">
+                                    <div class="border-icons"><i class="bi bi-pencil-fill"></i> 
+                                    </div>
+                                    <div class="border-icons"><i class="bi bi-trash-fill"></i></div>
+                                </div>
+                            </div>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-6"><div>La divina commedia</div></div>
+                                <div class="col-3"><button type="button" class="btn btn-warning btn-sm">In prestito</button></div>
+                                <div class="col-3 d-flex gap-1">
+                                    <div class="border-icons"><i class="bi bi-pencil-fill"></i> 
+                                    </div>
+                                    <div class="border-icons"><i class="bi bi-trash-fill"></i></div>
+                                </div>
+                            </div>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-6"><div>Il trono di spade</div></div>
+                                <div class="col-3"><button type="button" class="btn btn-success btn-sm">Disponibile</button></div>
+                                <div class="col-3 d-flex gap-1">
+                                    <div class="border-icons"><i class="bi bi-pencil-fill"></i> 
+                                    </div>
+                                    <div class="border-icons"><i class="bi bi-trash-fill"></i></div>
+                                </div>
+                            </div>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-6"><div>Il mondo di sofia</div></div>
+                                <div class="col-3"><button type="button" class="btn btn-danger btn-sm">Non disponibile</button></div>
+                                <div class="col-3 d-flex gap-1">
+                                    <div class="border-icons"><i class="bi bi-pencil-fill"></i> 
+                                    </div>
+                                    <div class="border-icons"><i class="bi bi-trash-fill"></i></div>
+                                </div>
+                            </div>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-6"><div>Le cronache di Narnia: il leone, la strega e l'armadio</div></div>
+                                <div class="col-3"><button type="button" class="btn btn-warning btn-sm">In prestito</button></div>
+                                <div class="col-3 d-flex gap-1">
+                                    <div class="border-icons"><i class="bi bi-pencil-fill"></i> 
+                                    </div>
+                                    <div class="border-icons"><i class="bi bi-trash-fill"></i></div>
+                                </div>
+                            </div>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-6"><div>Il piccolo principe</div></div>
+                                <div class="col-3"><button type="button" class="btn btn-success btn-sm">Disponibile</button></div>
+                                <div class="col-3 d-flex gap-1">
+                                    <div class="border-icons"><i class="bi bi-pencil-fill"></i> 
+                                    </div>
+                                    <div class="border-icons"><i class="bi bi-trash-fill"></i></div>
+                                </div>
+                            </div>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-6"><div>La storia infinita</div></div>
+                                <div class="col-3"><button type="button" class="btn btn-success btn-sm">Disponibile</button></div>
+                                <div class="col-3 d-flex gap-1">
+                                    <div class="border-icons"><i class="bi bi-pencil-fill"></i> 
+                                    </div>
+                                    <div class="border-icons"><i class="bi bi-trash-fill"></i></div>
+                                </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </main>
+        
 
 
 

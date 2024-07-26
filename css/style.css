@@ -19,7 +19,3 @@ input::placeholder {
     align-items: center;
     border-radius: 5px;
 }
-
-.btn-primary{
-    --bs-btn-color: #ddecff;
-}
